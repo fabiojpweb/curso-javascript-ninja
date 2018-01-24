@@ -91,4 +91,6 @@ function ultima( x, y, z ) {
 > ultima(1); //1
 > ultima(1,1); //2
 > ultima(1,1,2); //1
+
+
 ```
