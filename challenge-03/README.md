@@ -80,6 +80,7 @@ Crie um método chamado `mostrarAltura` que retorne a frase:
 */
 pessoa.mostrarAltura = function() {
 	return 'Minha altura é ' + pessoa.altura + 'm';
+}
 
 /*
 Agora vamos brincar um pouco com o objeto criado:
@@ -185,11 +186,8 @@ pessoa.apresentacao = function () {
 	if( pessoa.caminhouQuantosMetros === 1 ) {
 		metrosCaminhados = 'metro';
 	}
-
 	
-	
-	
-	return 'Olá, eu sou ' + sexo + ' ' + pessoa.nome + ' ' + pessoa.sobrenome + ', tenho ' + pessoa.idade + ' ' + idadeAnos + ', ' + pessoa.altura + ', meu peso é ' + pessoa.peso + 'kg e, só hoje, eu já caminhei ' + pessoa.caminhouQuantosMetros + ' + metrosCaminhados + '!'
+	return 'Olá, eu sou ' + sexo + ' ' + pessoa.nome + ' ' + pessoa.sobrenome + ', tenho ' + pessoa.idade + ' ' + idadeAnos + ', ' + pessoa.altura + ', meu peso é ' + pessoa.peso + 'kg e, só hoje, eu já caminhei ' + pessoa.caminhouQuantosMetros + ' + metrosCaminhados + '!';
 }
 
 // Agora, apresente-se ;)
